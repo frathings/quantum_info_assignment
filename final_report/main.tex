@@ -212,14 +212,14 @@ analog of AND followed by XOR.
 
 % The gates that will be used, CNOT and Toffoli, are sufficient to implement any classical computation reversibly.
 
-The \textit{CARRY gate} computes $c_i = a_i b_i \oplus c_{i-1}(a_i \oplus b_i)$
+The \textit{CARRY gate} computes $c_i$
 using three steps: \textbf{(1)} $\mathrm{CCX}(a_i, b_i, c_i)$: adds $a_i b_i$ into $c_i$,
 \textbf{(2)} $\mathrm{CX}(a_i, b_i)$: overwrites $b_i \leftarrow a_i \oplus b_i$,
 \textbf{(3)} $\mathrm{CCX}(c_{i-1}, a_i \oplus b_i, c_i)$: adds $c_{i-1}(a_i \oplus b_i)$ into $c_i$.
 After step 3, $c_i$ holds the correct carry. Since $a_i$ is still available,
  the gate is reversible.
 
-The \textit{SUM gate} implements $a_i \oplus b_i \oplus c_{i-1}$ which is a chain of
+The \textit{SUM gate} implements $\text{sum}_i$ as a chain of
 XORs, implemented by two CNOTs,
 $\mathrm{CX}(a_i, b_i)$ then $\mathrm{CX}(c_{i-1}, b_i)$,
 writing the result into $b_i$.
@@ -233,12 +233,12 @@ computes the sum bits via SUM gates and uncomputes every carry ancilla back to $
 \paragraph{Modular Adder}
 
 The modular adder implements $\ket{a,b} \to \ket{a,\,(a+b) \bmod N}$. The key observation is that $a + b \bmod N$ equals
-$a + b$ if no overflow occurred, and $a + b - N$ otherwise; it suffices to detect
+$a + b$ if no overflow occurred, and $a + b - N$ otherwise. So, it suffices to detect
 which case applies and correct accordingly.
 
 The circuit proceeds in five steps:
 
-\textbf{(1) Add.} Compute $b \leftarrow a + b$ using the plain adder. The overflow
+\textbf{(1) Add.} Compute $b \leftarrow a + b$ using the ripple-carry adder. The overflow
 bit $b[n]$ is $1$ if $a + b \geq 2^n$, but we care about whether $a + b \geq N$.
 
 \textbf{(2) Subtract $N$.} Swap $a \leftrightarrow b_N$ and apply the inverse adder
@@ -362,7 +362,8 @@ $|u_s\rangle$ of $U_a$. The QPE proceeds in three stages:
 
 \subsection{4.1 Measurement Outcomes and Period Recovery}
 
-After applying the inverse QFT to the control register, the measurement histogram peaks at multiples of $2^{n_x}/r$. For $N=33$, $a=7$,
+After applying the inverse QFT to the control register, the measurement histogram peaks at multiples of $2^{n_x}/r$. For example, in Fig. \ref{fig:histogram}
+there is the case $N=33$, $a=7$,
 the dominant measurement outcome is $m = 29491$ (binary: \texttt{111001100110011}),
 giving $\varphi = 29491/32768 \approx 0.900$. The continued fraction expansion yields
 the candidate $r=10$, which satisfies $7^{10} \equiv 1 \pmod{33}$. From this,
