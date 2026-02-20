@@ -2,23 +2,22 @@
 # Quantum Information assignment
 ## Shor's algorith implementation 
 
-```text
-assignment/
-│
-├── final_report/                         # Final written report
-│
-├── final_src/
-│   ├── imgs/                       # Figures used in the report
-│   └── test_notebooks/
-│       ├── phase_estimation.ipynb  # Testing implementation of QFT and QPE
-│       └── test_modexp_gate.ipynb  # Visualization and functional tests of
-│                                   # the arithmetic quantum operations
-│
-├── modexp.py                       # Functions for constructing the modular
-│                                   # exponentiation quantum circuit
-│
-├── shor_algorithm_complete.ipynb   # Main notebook: complete workflow of
-│                                   # Shor’s algorithm with test cases
-```
+Folder Structure
 
----
+- final_report: Contains the final documentation and analysis in PDF format.
+
+- final_src: Contains the source code and implementation scripts:
+
+    - shor_algorithm.ipynb: The main notebook demonstrating the complete algorithm.
+
+    - modexp.py: Core logic for modular exponentiation using reversible gates.
+
+    - grafico.py: Utility script for generating time vs num_bit plot.
+
+    - test_notebooks/: A collection of experimental notebooks used for:
+
+        - phase_estimation.ipynb: QFT and Phase estimation validation.
+
+        - test_modexp_gates.ipynb: Testing modular exponentiation gate logic.
+
+        - imgs/: Contains generated plots and circuit diagrams used in the report.

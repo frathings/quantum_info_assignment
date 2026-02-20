@@ -308,11 +308,11 @@ INPUT ./images/c80f06a8-0760-4bef-afae-fc75092b38f4.png
 INPUT ./images/c80f06a8-0760-4bef-afae-fc75092b38f4.png
 INPUT ./images/c80f06a8-0760-4bef-afae-fc75092b38f4.png
 INPUT ./images/c80f06a8-0760-4bef-afae-fc75092b38f4.png
-INPUT ./images/034a5555-b9a0-49e0-8c5a-94f0cf4a48ae.png
-INPUT ./images/034a5555-b9a0-49e0-8c5a-94f0cf4a48ae.png
-INPUT ./images/034a5555-b9a0-49e0-8c5a-94f0cf4a48ae.png
-INPUT ./images/034a5555-b9a0-49e0-8c5a-94f0cf4a48ae.png
-INPUT ./images/034a5555-b9a0-49e0-8c5a-94f0cf4a48ae.png
+INPUT ./shor_scaling.png
+INPUT ./shor_scaling.png
+INPUT ./shor_scaling.png
+INPUT ./shor_scaling.png
+INPUT ./shor_scaling.png
 INPUT main.aux
 INPUT main.run.xml
 OUTPUT main.run.xml

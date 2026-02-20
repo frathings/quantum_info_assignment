@@ -380,17 +380,17 @@ $3 \times 11 = 33$.
 
 \subsection{4.2 Scalability}
 
-Execution time was measured for $N \in \{15, 65, 133\}$ (corresponding to $L = 4, 7, 8$
+Execution time was measured for $N \in \{15, 55, 65, 133\}$ (corresponding to $L = 4, 6, 7, 8$
 bits). On a semi-log scale, the data lie close to the theoretical $\mathcal{O}(L^3)$
 reference (Figure~\ref{fig:scaling}). 
 The code was running in simulator MPS backend. 
 The observed scaling is consistent with the theoretical polynomial growth of the algorithm's complexity.
-
+There are some deviations which can be explained as finite-size effects and overheads of the implementation. 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.65\textwidth]{images/034a5555-b9a0-49e0-8c5a-94f0cf4a48ae.png}
+    \includegraphics[width=0.65\textwidth]{shor_scaling.png}
     \caption{Execution time vs.\ number of bits $L = \lceil\log_2 N\rceil$ on a
-    semi-log scale. Are included 3 executions to estimate the error. Experiment was performed on MPS simulator backend.}
+    semi-log scale. Are included 10 executions to estimate the variability.}
     \label{fig:scaling}
 \end{figure}
 

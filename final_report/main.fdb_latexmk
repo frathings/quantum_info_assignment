@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1771579564.318 "main.bcf" "main.bbl" "main" 1771587038.48603 0
-  "main.bcf" 1771587038.38199 108141 c43ab458cb354bf805a08ade0d4d38be "pdflatex"
+["biber main"] 1771579564.318 "main.bcf" "main.bbl" "main" 1771591491.71747 0
+  "main.bcf" 1771591491.54524 108141 c43ab458cb354bf805a08ade0d4d38be "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1771587037.12231 "/Users/francescapagano/Documents/GitHub/quantum_info_assignment/final_report/main.tex" "main.pdf" "main" 1771587038.48637 0
-  "/Users/francescapagano/Documents/GitHub/quantum_info_assignment/final_report/main.tex" 1771587036.89984 19552 99c2c4ae7d7632c98fc3fa95b546b207 ""
+["pdflatex"] 1771591488.79231 "/Users/francescapagano/Documents/GitHub/quantum_info_assignment/final_report/main.tex" "main.pdf" "main" 1771591491.71799 0
+  "/Users/francescapagano/Documents/GitHub/quantum_info_assignment/final_report/main.tex" 1771591487.80715 19593 9fa830982473e85a2f583ff3f82e17d9 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -166,13 +166,13 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1769287346 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1769287276 3345738 c8f44260ef47574909ef3fd8b13a3aec ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "images/034a5555-b9a0-49e0-8c5a-94f0cf4a48ae.png" 1771583937.14855 62496 b9d2d29c60d12d3059a64fe268f37090 ""
   "images/Screenshot 2026-02-18 alle 20.50.34.png" 1771583937.15054 258133 b71983e3466363b0ac58b92b0a6d4a06 ""
   "images/c80f06a8-0760-4bef-afae-fc75092b38f4.png" 1771583937.15091 54098 c7fbc1c03d891da5b082d47e1e2dffee ""
-  "main.aux" 1771587038.37969 7301 ffc7a1de8964dcb76975b455002fa993 "pdflatex"
+  "main.aux" 1771591491.54173 7213 aa65c31b7c3681717fd981713da74f41 "pdflatex"
   "main.bbl" 1771583937.15312 466 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.run.xml" 1771587038.38265 2311 e66a0e3ff336a5af941c7fe634558519 "pdflatex"
-  "main.tex" 1771587036.89984 19552 99c2c4ae7d7632c98fc3fa95b546b207 ""
+  "main.run.xml" 1771591491.54626 2311 e66a0e3ff336a5af941c7fe634558519 "pdflatex"
+  "main.tex" 1771591487.80715 19593 9fa830982473e85a2f583ff3f82e17d9 ""
+  "shor_scaling.png" 1771590450.48125 105279 c610c9a225c1e3ee76fc7917e4a08925 ""
   (generated)
   "main.aux"
   "main.bcf"
