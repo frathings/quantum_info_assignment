@@ -4,7 +4,7 @@ This notebook contains an implementation of **Shor’s factoring algorithm**. It
 
 - the **classical preprocessing** step (random choice of $a$, $\gcd(a,N)$ check),
 - **quantum order finding** via **Quantum Phase Estimation (QPE)** with controlled modular exponentiation,
-- and the **classical post-processing** (continued fractions and $\gcd(a^{r/2}\pm 1, N)$) used to extract non-trivial factors.
+- and the **classical post-processing** (continued fractions and $\gcd(a^{r/2}\pm 1, N))$ used to extract non-trivial factors.
 
 The notebook also includes a **toy RSA application**, showing how factoring the RSA modulus $N=pq$ enables recovery of the private key and decryption of an encrypted message (for small, simulator-friendly parameters).
 
