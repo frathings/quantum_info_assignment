@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.24)  20 FEB 2026 10:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.24)  20 FEB 2026 12:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/francescapagano/Desktop/Docs🗂️/MSc/SECONDO ANNO/quantum information/assignment/assignmet_final_version/final_report/main.tex"
-(/Users/francescapagano/Desktop/Docs🗂️/MSc/SECONDO ANNO/quantum information/assignment/assignmet_final_version/final_report/main.tex
+**/Users/francescapagano/Documents/GitHub/quantum_info_assignment/final_report/main.tex
+(/Users/francescapagano/Documents/GitHub/quantum_info_assignment/final_report/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -910,15 +910,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25474 strings out of 473190
- 432759 string characters out of 5715800
+ 25478 strings out of 473190
+ 432650 string characters out of 5715800
  1314528 words of memory out of 5000000
  48231 multiletter control sequences out of 15000+600000
- 615529 words of font info for 148 fonts, out of 8000000 for 9000
+ 615742 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,13n,93p,1131b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,13n,93p,1078b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (5 pages, 560232 bytes).
+Output written on main.pdf (5 pages, 560100 bytes).
 PDF statistics:
  202 PDF objects out of 1000 (max. 8388607)
  152 compressed objects within 2 object streams

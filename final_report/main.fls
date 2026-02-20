@@ -1,8 +1,8 @@
-PWD /Users/francescapagano/Desktop/Docs🗂️/MSc/SECONDO ANNO/quantum information/assignment/assignmet_final_version/final_report
+PWD /Users/francescapagano/Documents/GitHub/quantum_info_assignment/final_report
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/francescapagano/Desktop/Docs🗂️/MSc/SECONDO ANNO/quantum information/assignment/assignmet_final_version/final_report/main.tex
+INPUT /Users/francescapagano/Documents/GitHub/quantum_info_assignment/final_report/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls

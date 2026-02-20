@@ -208,9 +208,9 @@ It computes the sum in the saem way one would do it by hand: $\text{sum}_i = a_i
  $c_i = a_i b_i \oplus c_{i-1}(a_i \oplus b_i)$. The two elementary gates used in the quantum version are the \textit{CNOT}, which implements $\ket{a,b} \to
 \ket{a, a \oplus b}$, quantum analog of XOR, and the \textit{Toffoli},
 which implements $\ket{a,b,c} \to \ket{a, b, c \oplus ab}$,
-analog of AND followed by XOR. Since any classical boolean function can be
-decomposed into XOR and AND, CNOT and Toffoli are sufficient to implement any
-classical computation reversibly.
+analog of AND followed by XOR.
+
+% The gates that will be used, CNOT and Toffoli, are sufficient to implement any classical computation reversibly.
 
 The \textit{CARRY gate} computes $c_i = a_i b_i \oplus c_{i-1}(a_i \oplus b_i)$
 using three steps: \textbf{(1)} $\mathrm{CCX}(a_i, b_i, c_i)$: adds $a_i b_i$ into $c_i$,
