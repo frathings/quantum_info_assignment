@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1771579564.318 "main.bcf" "main.bbl" "main" 1771591491.71747 0
-  "main.bcf" 1771591491.54524 108141 c43ab458cb354bf805a08ade0d4d38be "pdflatex"
+["biber main"] 1771579564.318 "main.bcf" "main.bbl" "main" 1771603466.03372 0
+  "main.bcf" 1771603465.86612 108141 c43ab458cb354bf805a08ade0d4d38be "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1771591488.79231 "/Users/francescapagano/Documents/GitHub/quantum_info_assignment/final_report/main.tex" "main.pdf" "main" 1771591491.71799 0
-  "/Users/francescapagano/Documents/GitHub/quantum_info_assignment/final_report/main.tex" 1771591487.80715 19593 9fa830982473e85a2f583ff3f82e17d9 ""
+["pdflatex"] 1771603463.44946 "/Users/francescapagano/Documents/GitHub/quantum_info_assignment/final_report/main.tex" "main.pdf" "main" 1771603466.0342 0
+  "/Users/francescapagano/Documents/GitHub/quantum_info_assignment/final_report/main.tex" 1771603462.98154 19620 3c1a477778378a8b7a90fd4377f65d70 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -168,10 +168,10 @@
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "images/Screenshot 2026-02-18 alle 20.50.34.png" 1771583937.15054 258133 b71983e3466363b0ac58b92b0a6d4a06 ""
   "images/c80f06a8-0760-4bef-afae-fc75092b38f4.png" 1771583937.15091 54098 c7fbc1c03d891da5b082d47e1e2dffee ""
-  "main.aux" 1771591491.54173 7213 aa65c31b7c3681717fd981713da74f41 "pdflatex"
+  "main.aux" 1771603465.86243 7213 aa65c31b7c3681717fd981713da74f41 "pdflatex"
   "main.bbl" 1771583937.15312 466 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.run.xml" 1771591491.54626 2311 e66a0e3ff336a5af941c7fe634558519 "pdflatex"
-  "main.tex" 1771591487.80715 19593 9fa830982473e85a2f583ff3f82e17d9 ""
+  "main.run.xml" 1771603465.86714 2311 e66a0e3ff336a5af941c7fe634558519 "pdflatex"
+  "main.tex" 1771603462.98154 19620 3c1a477778378a8b7a90fd4377f65d70 ""
   "shor_scaling.png" 1771590450.48125 105279 c610c9a225c1e3ee76fc7917e4a08925 ""
   (generated)
   "main.aux"

@@ -206,9 +206,9 @@ In the simulations it was efficient enough to support factorization up to 8-bit 
 One method that allows to perform additions with classical logic gates is the ripple-carry adder.
 It computes the sum in the saem way one would do it by hand: $\text{sum}_i = a_i \oplus b_i \oplus c_{i-1}$, 
  $c_i = a_i b_i \oplus c_{i-1}(a_i \oplus b_i)$. The two elementary gates used in the quantum version are the \textit{CNOT}, which implements $\ket{a,b} \to
-\ket{a, a \oplus b}$, quantum analog of XOR, and the \textit{Toffoli},
+\ket{a, a \oplus b}$, implementing the same boolean function of a XOR, and the \textit{Toffoli},
 which implements $\ket{a,b,c} \to \ket{a, b, c \oplus ab}$,
-analog of AND followed by XOR.
+a reversible controlled update.
 
 % The gates that will be used, CNOT and Toffoli, are sufficient to implement any classical computation reversibly.
 
