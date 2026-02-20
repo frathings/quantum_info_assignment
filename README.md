@@ -5,9 +5,9 @@
 ```text
 assignment/
 │
-├── report/                         # Final written report
+├── final_report/                         # Final written report
 │
-├── src/
+├── final_src/
 │   ├── imgs/                       # Figures used in the report
 │   └── test_notebooks/
 │       ├── phase_estimation.ipynb  # Testing implementation of QFT and QPE
