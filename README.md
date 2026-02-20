@@ -1,5 +1,5 @@
 
-# Quantum Information final assignment
+# Quantum Information assignment
 ## Shor's algorith implementation 
 
 ```text
