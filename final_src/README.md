@@ -27,7 +27,7 @@ For each instance, a coprime base $a$ is fixed and the QPE precision/simulation 
 - $n$ controls the precision of phase estimation.  
 - $n_x$ is the size of the work/auxiliary register used by the modular exponentiation block .
 - The simulation backend method is selected to manage circuit size:
-  - `matrix_product_state` is used for most cases as it scales better than full statevector for moderate qubit counts.
+  - `matrix_product_state` is used for most cases as it scales better than full statevector for qubit counts.
   - Running these circuits on actual quantum hardware is significantly more demanding than in simulation because Shor’s modular exponentiation requires deep, non-Clifford arithmetic.
 
 
