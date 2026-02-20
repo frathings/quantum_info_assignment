@@ -4,7 +4,7 @@ This notebook contains an implementation of **Shor’s factoring algorithm**. It
 
 - the **classical preprocessing** step (random choice of $a$, $\gcd(a,N)$ check),
 - **quantum order finding** via **Quantum Phase Estimation (QPE)** with controlled modular exponentiation,
-- and the **classical post-processing** (continued fractions and $\gcd(a^{r/2}\pm 1, N)$) used to extract non-trivial factors.
+- and the **classical post-processing** (continued fractions and $\gcd(a^{r/2}\pm 1, N))$ used to extract non-trivial factors.
 
 The notebook also includes a **toy RSA application**, showing how factoring the RSA modulus $N=pq$ enables recovery of the private key and decryption of an encrypted message (for small, simulator-friendly parameters).
 
@@ -27,7 +27,7 @@ For each instance, a coprime base $a$ is fixed and the QPE precision/simulation 
 - $n$ controls the precision of phase estimation.  
 - $n_x$ is the size of the work/auxiliary register used by the modular exponentiation block .
 - The simulation backend method is selected to manage circuit size:
-  - `matrix_product_state` is used for most cases as it scales better than full statevector for qubit counts.
+  - `matrix_product_state` is used as it scales better than statevector for qubit counts.
   - Running these circuits on actual quantum hardware is significantly more demanding than in simulation because Shor’s modular exponentiation requires deep, non-Clifford arithmetic.
 
 
